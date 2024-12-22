@@ -12,4 +12,5 @@ add_executable(ASimpleGreeting main.c
         moon01.c
         pithy01.c
         pithy02.c
-        pithy03.c)
+        pithy03.c
+        pithy04.c)
