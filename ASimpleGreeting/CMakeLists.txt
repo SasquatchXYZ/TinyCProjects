@@ -7,4 +7,5 @@ add_executable(ASimpleGreeting main.c
         greet02.c
         time01.c
         time02.c
-        greet03.c)
+        greet03.c
+        greet04.c)
