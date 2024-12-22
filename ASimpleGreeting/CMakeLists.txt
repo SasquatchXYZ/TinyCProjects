@@ -5,4 +5,5 @@ set(CMAKE_C_STANDARD 23)
 
 add_executable(ASimpleGreeting main.c
         greet02.c
-        time01.c)
+        time01.c
+        time02.c)
