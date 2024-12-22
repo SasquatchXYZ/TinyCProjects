@@ -54,3 +54,9 @@ dkms.conf
 
 # JetBrains
 .idea
+
+# MacOS
+.DS_Store
+
+# Debug
+cmake-build-debug/
