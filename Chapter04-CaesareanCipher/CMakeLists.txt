@@ -9,3 +9,4 @@ add_executable(Buffering buffering.c
         io_filter.c)
 add_executable(IOFilter io_filter.c)
 add_executable(Censored censored.c)
+add_executable(AllCaps allcaps.c)
