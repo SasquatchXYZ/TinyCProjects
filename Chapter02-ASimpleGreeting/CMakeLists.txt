@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.30)
-project(ASimpleGreeting C)
+project(Chapter02_ASimpleGreeting C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(ASimpleGreeting main.c
+add_executable(Chapter02_ASimpleGreeting main.c
         greet02.c
         time01.c
         time02.c
