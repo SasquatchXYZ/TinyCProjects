@@ -10,3 +10,5 @@ add_executable(Nato02 nato02.c)
 add_executable(WordParse01 word_parse01.c)
 
 add_executable(Nato03 nato03.c)
+
+add_executable(Nato04 nato04.c)
