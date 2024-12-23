@@ -3,7 +3,7 @@ project(Chapter03_NatoOutput C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(Chapter03_NatoOutput nato01.c)
+add_executable(Nato01 nato01.c)
 
 add_executable(Nato02 nato02.c)
 
