@@ -3,4 +3,4 @@ project(Chapter03_NatoOutput C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(Chapter03_NatoOutput main.c)
+add_executable(Chapter03_NatoOutput nato01.c)
