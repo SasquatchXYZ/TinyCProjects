@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.30)
+project(Chapter06_PasswordGenerators C)
+
+set(CMAKE_C_STANDARD 23)
+
+add_executable(Chapter06_PasswordGenerators main.c)
