@@ -5,3 +5,4 @@ set(CMAKE_C_STANDARD 23)
 
 add_executable(Chapter05_EncodingAndDecoding main.c)
 add_executable(ASCIITable01 asciiTable01.c)
+add_executable(BinaryASCIITable01 binaryAsciiTable01.c)
