@@ -44,7 +44,7 @@ int main()
         password[x++] = lowercase();
     while (x < UPPER + LOWER + NUM)
         password[x++] = number();
-    while (x < UPPER + LOWER + SYM)
+    while (x < UPPER + LOWER + NUM + SYM)
         password[x++] = symbol();
 
     password[x] = '\0';
