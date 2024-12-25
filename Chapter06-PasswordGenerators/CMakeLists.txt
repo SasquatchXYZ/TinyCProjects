@@ -4,3 +4,4 @@ project(Chapter06_PasswordGenerators C)
 set(CMAKE_C_STANDARD 23)
 
 add_executable(Chapter06_PasswordGenerators main.c)
+add_executable(BrutePass01 brutePass01.c)
