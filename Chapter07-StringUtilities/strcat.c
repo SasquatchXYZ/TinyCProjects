@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-char* strappend(char* dest, char* src)
+char* strappend(const char* dest, const char* src)
 {
     // `strcat` returns the point `dest`, the newly combined string
     return strcat(dest, src);
