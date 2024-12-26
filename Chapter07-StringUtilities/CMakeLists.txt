@@ -5,3 +5,4 @@ set(CMAKE_C_STANDARD 23)
 
 add_executable(Chapter07_StringUtilities main.c)
 add_executable(StringSize string_size.c)
+add_executable(Empty-Null empty-null.c)
