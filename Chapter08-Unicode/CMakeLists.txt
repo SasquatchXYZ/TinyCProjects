@@ -5,3 +5,4 @@ set(CMAKE_C_STANDARD 23)
 
 add_executable(Chapter08_Unicode main.c)
 add_executable(Morse_Code_Filter morse_code_filter.c)
+add_executable(Extended_ASCII extended_ascii.c)
