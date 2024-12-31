@@ -4,3 +4,4 @@ project(Chapter09_HexDumper C)
 set(CMAKE_C_STANDARD 23)
 
 add_executable(Chapter09_HexDumper main.c)
+add_executable(ByteSizes byte_sizes.c)
