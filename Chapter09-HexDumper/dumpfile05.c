@@ -89,7 +89,7 @@ int main(const int argc, char* argv[])
     int index;
     int r;
     int offset = index = opterr = options = 0;
-    // optind = 2;
+    // optind = 2; // This is required to get it to work on MacOS because `getopt` behaves differently
 
     while ((r = getopt(argc, argv, "aoh")) != -1)
     {
