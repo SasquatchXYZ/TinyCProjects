@@ -4,3 +4,5 @@ project(Chapter10_DirectoryTree C)
 set(CMAKE_C_STANDARD 23)
 
 add_executable(Chapter10_DirectoryTree main.c)
+add_executable(FileInfo01 fileinfo01.c)
+add_executable(FileInfo02 fileinfo02.c)
