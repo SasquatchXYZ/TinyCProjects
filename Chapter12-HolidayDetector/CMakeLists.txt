@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.30)
+project(Chapter12_HolidayDetector C)
+
+set(CMAKE_C_STANDARD 23)
+
+add_executable(Chapter12_HolidayDetector main.c)
