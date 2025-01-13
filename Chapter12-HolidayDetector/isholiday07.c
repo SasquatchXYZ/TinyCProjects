@@ -35,7 +35,7 @@ int easter(const struct holiday* holiday)
     const int k = c % 4;
     const int L = (32 + 2 * e + 2 * (int)i - h - k) % 7;
     const double m = floor((a + 11 * h + 22 * L) / 451);
-    const double month = floor((h + L - 7 * m + 114) / 31);
+    const double month = floor((h + L - 7 * m + 114) / 31) - 1;
     const double day = ((h + L - 7 * (int)m + 114) % 31) + 1;
 
     if (holiday->month == month && holiday->day == day)
