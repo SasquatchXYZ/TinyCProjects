@@ -5,3 +5,4 @@ set(CMAKE_C_STANDARD 23)
 
 add_executable(Chapter15_TicTacToe main.c)
 add_executable(TicTacToe01 ttt01.c)
+add_executable(TicTacToe02 ttt02.c)
